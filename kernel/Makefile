@@ -38,9 +38,7 @@ link:
 
 setup:
 	@mkdir $(OBJDIR)
-	@mkdir $(SRCDIR)
 	@mkdir $(BUILDDIR)
-	@mkdir $(ISODIR)
 	@mkdir $(OUTDIR)
 
 buildimg:
