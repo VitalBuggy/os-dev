@@ -43,7 +43,6 @@ setup:
 
 buildimg:
 	@cp $(BUILDDIR)/kernel.bin $(ISODIR)/boot/kernel.bin
-	@cp grub.cfg $(ISODIR)/boot/grub/grub.cfg
 	@grub-mkrescue -o $(OUTDIR)/$(OUTISONAME) $(ISODIR)
 
 boot:
