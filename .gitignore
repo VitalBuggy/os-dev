@@ -1,2 +1,4 @@
 isodir/
 out/
+kernel/bin
+kernel/lib
